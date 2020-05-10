@@ -58,7 +58,6 @@ def register():
     os.mkdir("pub_keys")
     os.mkdir("priv_key")
     os.mkdir("mess-s")
-    os.mkdir("your_mess-s")
     password = getpass("Create Password >> ")
     private_key = rsa.generate_private_key(
         public_exponent=65537,
